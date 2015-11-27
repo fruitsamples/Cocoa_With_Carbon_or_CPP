@@ -3,15 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 42;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5348EA0C0B6E8AB90037DDC0 /* Hello.nib in Resources */ = {isa = PBXBuildFile; fileRef = 5348EA0A0B6E8AB90037DDC0 /* Hello.nib */; };
 		5351A5BD0B6E7AEF00B33DA5 /* FooClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 10E95376FF3A1B1B11CB1529 /* FooClass.h */; };
 		5351A5BE0B6E7AEF00B33DA5 /* SayHello.h in Headers */ = {isa = PBXBuildFile; fileRef = 016AEBDF000673DE11CB1529 /* SayHello.h */; };
 		5351A5BF0B6E7AEF00B33DA5 /* HelloController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AF5505DFF38D73B11CB1529 /* HelloController.h */; };
-		5351A5C10B6E7AEF00B33DA5 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		5351A5C20B6E7AEF00B33DA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		5351A5C30B6E7AEF00B33DA5 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5351A5B10B6E7A8F00B33DA5 /* ReadMe.txt */; };
 		5351A5C50B6E7AEF00B33DA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -20,6 +18,10 @@
 		5351A5C80B6E7AEF00B33DA5 /* SayHello.mm in Sources */ = {isa = PBXBuildFile; fileRef = 016AEBDD000673C111CB1529 /* SayHello.mm */; settings = {ATTRIBUTES = (); }; };
 		5351A5CA0B6E7AEF00B33DA5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		5351A5CB0B6E7AEF00B33DA5 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B3F095DFF38F2F511CB1529 /* Carbon.framework */; };
+		D0947C4D13C7ABE000BE2037 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0947C4F13C7ABE000BE2037 /* MainMenu.xib */; };
+		D0EF609913CDF5BB00B34055 /* Hello.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0EF609B13CDF5BB00B34055 /* Hello.xib */; };
+		D0EF609D13CDF69C00B34055 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EF609C13CDF69C00B34055 /* Foundation.framework */; };
+		D0EF609F13CDF6A200B34055 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EF609E13CDF6A200B34055 /* AppKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,13 +35,13 @@
 		10E95376FF3A1B1B11CB1529 /* FooClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FooClass.h; sourceTree = "<group>"; };
 		10E95378FF3A1B6011CB1529 /* FooClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FooClass.cpp; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
-		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
-		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		5348EA0B0B6E8AB90037DDC0 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Hello.nib; sourceTree = "<group>"; };
 		5351A5B10B6E7A8F00B33DA5 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
-		5351A5D20B6E7AEF00B33DA5 /* Info-Cocoa_With_Carbon_or_CPP.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Info-Cocoa_With_Carbon_or_CPP.plist"; sourceTree = "<group>"; };
+		5351A5D20B6E7AEF00B33DA5 /* Info-Cocoa_With_Carbon_or_CPP.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Cocoa_With_Carbon_or_CPP.plist"; sourceTree = "<group>"; };
 		5351A5D30B6E7AEF00B33DA5 /* Cocoa_With_Carbon_or_C++.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cocoa_With_Carbon_or_C++.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0947C4E13C7ABE000BE2037 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D0EF609A13CDF5BB00B34055 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/Hello.xib; sourceTree = "<group>"; };
+		D0EF609C13CDF69C00B34055 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0EF609E13CDF6A200B34055 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0EF609F13CDF6A200B34055 /* AppKit.framework in Frameworks */,
+				D0EF609D13CDF69C00B34055 /* Foundation.framework in Frameworks */,
 				5351A5CA0B6E7AEF00B33DA5 /* Cocoa.framework in Frameworks */,
 				5351A5CB0B6E7AEF00B33DA5 /* Carbon.framework in Frameworks */,
 			);
@@ -72,6 +76,8 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D0EF609E13CDF6A200B34055 /* AppKit.framework */,
+				D0EF609C13CDF69C00B34055 /* Foundation.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 				0B3F095DFF38F2F511CB1529 /* Carbon.framework */,
 			);
@@ -81,8 +87,6 @@
 		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
-				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
 			);
 			name = "Other Frameworks";
 			sourceTree = "<group>";
@@ -103,7 +107,6 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				5351A5D20B6E7AEF00B33DA5 /* Info-Cocoa_With_Carbon_or_CPP.plist */,
 			);
 			name = CocoaApp;
 			sourceTree = "<group>";
@@ -111,8 +114,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5348EA0A0B6E8AB90037DDC0 /* Hello.nib */,
-				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				5351A5D20B6E7AEF00B33DA5 /* Info-Cocoa_With_Carbon_or_CPP.plist */,
+				D0EF609B13CDF5BB00B34055 /* Hello.xib */,
+				D0947C4F13C7ABE000BE2037 /* MainMenu.xib */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 			);
 			name = Resources;
@@ -168,10 +172,19 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 53643D580B6E785B00AE9835 /* Build configuration list for PBXProject "Cocoa_With_Carbon_or_C++" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CocoaApp */;
 			projectDirPath = "";
+			projectRoot = "";
 			targets = (
 				5351A5BB0B6E7AEF00B33DA5 /* Cocoa_With_Carbon_or_C++ */,
 			);
@@ -183,10 +196,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5351A5C10B6E7AEF00B33DA5 /* MainMenu.nib in Resources */,
 				5351A5C20B6E7AEF00B33DA5 /* InfoPlist.strings in Resources */,
 				5351A5C30B6E7AEF00B33DA5 /* ReadMe.txt in Resources */,
-				5348EA0C0B6E8AB90037DDC0 /* Hello.nib in Resources */,
+				D0947C4D13C7ABE000BE2037 /* MainMenu.xib in Resources */,
+				D0EF609913CDF5BB00B34055 /* Hello.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,20 +238,20 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+		D0947C4F13C7ABE000BE2037 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				29B97319FDCFA39411CA2CEA /* English */,
+				D0947C4E13C7ABE000BE2037 /* English */,
 			);
-			name = MainMenu.nib;
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
-		5348EA0A0B6E8AB90037DDC0 /* Hello.nib */ = {
+		D0EF609B13CDF5BB00B34055 /* Hello.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5348EA0B0B6E8AB90037DDC0 /* English */,
+				D0EF609A13CDF5BB00B34055 /* English */,
 			);
-			name = Hello.nib;
+			name = Hello.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -250,7 +263,6 @@
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
@@ -274,13 +286,8 @@
 		5351A5D00B6E7AEF00B33DA5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					i386,
-					ppc,
-				);
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = "\"$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Libraries/CIncludes\"";
 				INFOPLIST_FILE = "Info-Cocoa_With_Carbon_or_CPP.plist";
@@ -302,18 +309,20 @@
 		53643D590B6E785B00AE9835 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
 		53643D5A0B6E785B00AE9835 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					i386,
-					ppc,
-				);
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
